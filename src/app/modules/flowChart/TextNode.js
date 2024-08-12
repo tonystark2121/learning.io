@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { Handle, Position } from "@xyflow/react";
+import { Handle, NodeResizer, Position } from "@xyflow/react";
 import { MessageOutlined, TextFieldsOutlined } from "@mui/icons-material";
 
 const handleStyle = { left: 10 };
