@@ -1,8 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./app/routes/AppRoutes";
+import FlowChartPage from "./app/modules/flowChart";
+import MiniDrawer from "./app/modules/flowChart/Drawer";
+
 export default function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <p>Welcome to your new single-spa application.</p>
+      <MiniDrawer />
     </>
   );
 }
