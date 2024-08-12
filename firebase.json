@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "learning-io",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
